@@ -1,4 +1,4 @@
-# Project Name
+# FonRadar
 
 This project contains the source code for the Buyer microservice.
 
