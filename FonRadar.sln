@@ -3,10 +3,36 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1706.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FonRadar.Infrastructure", "FonRadar.Infrastructure\FonRadar.Infrastructure.csproj", "{701C1B89-391F-4F4E-BAF1-0EDCA2408BB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FonRadar.Application", "FonRadar.Application\FonRadar.Application.csproj", "{C77AFEF0-CF26-4C1C-9A12-1FED05802CDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FonRadar.Api", "FonRadar.Api\FonRadar.Api.csproj", "{C8E1B968-1266-4E02-91C1-AE76D7F73A72}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{44DE55D9-4710-4ADA-A3CD-0DB2C79BFC62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{701C1B89-391F-4F4E-BAF1-0EDCA2408BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{701C1B89-391F-4F4E-BAF1-0EDCA2408BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{701C1B89-391F-4F4E-BAF1-0EDCA2408BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{701C1B89-391F-4F4E-BAF1-0EDCA2408BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C77AFEF0-CF26-4C1C-9A12-1FED05802CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C77AFEF0-CF26-4C1C-9A12-1FED05802CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C77AFEF0-CF26-4C1C-9A12-1FED05802CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C77AFEF0-CF26-4C1C-9A12-1FED05802CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8E1B968-1266-4E02-91C1-AE76D7F73A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8E1B968-1266-4E02-91C1-AE76D7F73A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8E1B968-1266-4E02-91C1-AE76D7F73A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8E1B968-1266-4E02-91C1-AE76D7F73A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44DE55D9-4710-4ADA-A3CD-0DB2C79BFC62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44DE55D9-4710-4ADA-A3CD-0DB2C79BFC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44DE55D9-4710-4ADA-A3CD-0DB2C79BFC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44DE55D9-4710-4ADA-A3CD-0DB2C79BFC62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,74 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.9" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.9" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="FluentValidation" Version="11.6.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Accounts\" />
+    <None Remove="Accounts\Requests\" />
+    <None Remove="Accounts\Responses\" />
+    <None Remove="Accounts\Commands\" />
+    <None Remove="Accounts\Handlers\" />
+    <None Remove="Common\" />
+    <None Remove="Common\Exceptions\" />
+    <None Remove="Common\Extensions\" />
+    <None Remove="Common\Accessors\" />
+    <None Remove="Accounts\Validators\" />
+    <None Remove="Invoices\" />
+    <None Remove="Invoices\Commands\" />
+    <None Remove="Invoices\Handlers\" />
+    <None Remove="Invoices\Requests\" />
+    <None Remove="Invoices\Validators\" />
+    <None Remove="Invoices\Queries\" />
+    <None Remove="Invoices\Responses\" />
+    <None Remove="Payments\" />
+    <None Remove="Payments\Commands\" />
+    <None Remove="Payments\Handlers\" />
+    <None Remove="Payments\Requests\" />
+    <None Remove="Notifications\" />
+    <None Remove="Notifications\Handlers\" />
+    <None Remove="Invoices\Events\" />
+    <None Remove="Notifications\Hubs\" />
+    <None Remove="Payments\Events\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Accounts\" />
+    <Folder Include="Accounts\Requests\" />
+    <Folder Include="Accounts\Responses\" />
+    <Folder Include="Accounts\Commands\" />
+    <Folder Include="Accounts\Handlers\" />
+    <Folder Include="Common\" />
+    <Folder Include="Common\Exceptions\" />
+    <Folder Include="Common\Extensions\" />
+    <Folder Include="Common\Accessors\" />
+    <Folder Include="Accounts\Validators\" />
+    <Folder Include="Invoices\" />
+    <Folder Include="Invoices\Commands\" />
+    <Folder Include="Invoices\Handlers\" />
+    <Folder Include="Invoices\Requests\" />
+    <Folder Include="Invoices\Validators\" />
+    <Folder Include="Invoices\Queries\" />
+    <Folder Include="Invoices\Responses\" />
+    <Folder Include="Payments\" />
+    <Folder Include="Payments\Commands\" />
+    <Folder Include="Payments\Handlers\" />
+    <Folder Include="Payments\Requests\" />
+    <Folder Include="Notifications\" />
+    <Folder Include="Notifications\Handlers\" />
+    <Folder Include="Invoices\Events\" />
+    <Folder Include="Notifications\Hubs\" />
+    <Folder Include="Payments\Events\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FonRadar.Infrastructure\FonRadar.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
